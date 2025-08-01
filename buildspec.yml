@@ -11,7 +11,7 @@ phases:
   build:
     commands:
       - echo Building the React app...
-      - npm run public
+      - npm run build
 
 artifacts:
   files:
