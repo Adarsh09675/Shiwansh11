@@ -11,10 +11,10 @@ phases:
   build:
     commands:
       - echo Building the React app...
-      - npm run build
+      - npm run public
 
 artifacts:
   files:
     - '**/*'
-  base-directory: build
+  base-directory: public
   discard-paths: no
